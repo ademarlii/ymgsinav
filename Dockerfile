@@ -1,3 +1,5 @@
-FROM ngnix
+FROM ngnix:latest
 
-COPY
+COPY .idea /usr/share/nginx/html/
+
+EXPOSE 80
