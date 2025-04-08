@@ -1,0 +1,3 @@
+FROM ngnix
+
+COPY
