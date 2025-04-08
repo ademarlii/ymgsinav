@@ -1,4 +1,4 @@
-FROM ngnix:latest
+FROM nginx:latest
 
 COPY .idea /usr/share/nginx/html/
 
